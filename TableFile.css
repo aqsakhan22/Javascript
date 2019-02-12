@@ -1,0 +1,104 @@
+    #customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+ width: 100%;
+  margin-top: 100px;
+
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover {
+    background-color: #ddd;}
+    #customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:goldenrod;
+  color: white;
+}
+
+#customers td {
+   color:black;
+   font-size: 16px;
+   text-align: center;
+  }
+body{
+            background-image: url(back.jpg);
+            overflow:initial;
+           
+        }
+.container{
+    background-color:cadetblue;
+  width: 1100px;
+  height: 700px;
+  }
+    
+.nav{
+    width: 1150px;
+    height: 60px;
+    background:chocolate;
+}
+ul {
+  list-style-type: none;
+ 
+ 
+}
+.nav a{
+    float: left;
+  color: #f2f2f2;
+  
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+li a{
+    display:inline;   
+}
+li{
+    font-family:'Courier New', Courier, monospace;
+   
+}
+.nav :hover{
+    background-color:bisque;
+    color:black;
+    text-decoration: underline black;
+}
+.nav a{
+    font-size: 24px;
+    font-weight: bold;
+    float:right;
+   
+}
+.nav a.active {
+  background-color:goldenrod;
+  height: 20px;
+ 
+}
+.img{
+   text-align: left;
+}
+
+.tableview{
+    width:1000px ;
+    margin:60px;
+}
+#btnvalue{
+    background-color:goldenrod;
+  
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:initial;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 30px;
+   
+}
